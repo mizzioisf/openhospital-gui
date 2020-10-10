@@ -103,7 +103,7 @@ esac
 
 ######### OPENHOSPITAL STARTUP
 
-cd $OPENHOSPITAL_HOME&& $JAVA_BIN -Dsun.java2d.dpiaware=false -Djava.library.path=${NATIVE_LIB_PATH} -classpath "$OPENHOSPITAL_CLASSPATH" org.isf.menu.gui.Menu "$@"
+cd $OPENHOSPITAL_HOME && $JAVA_BIN -Dsun.java2d.dpiaware=false -Djava.library.path=${NATIVE_LIB_PATH} -classpath "$OPENHOSPITAL_CLASSPATH" org.isf.menu.gui.Menu "$@"
 
 # go back to working directory
 cd $CURRENT_DIR
